@@ -1,0 +1,20 @@
+{
+  "name": "SETU",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/hapi": "^20.1.4",
+    "geofire-common": "^5.2.0",
+    "joi": "^17.4.2",
+    "lodash": "^4.17.21",
+    "pg-promise": "^10.10.2",
+    "uuid": "^8.3.2"
+  }
+}
